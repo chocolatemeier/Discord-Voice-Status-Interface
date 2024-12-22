@@ -1,2 +1,19 @@
+# 忽略 node_modules
 node_modules/
+
+# 忽略打包時產生的臨時檔案
+*.log
+*.tmp
+*.lock
+
+# 忽略 Mac 和 Windows 系統的臨時檔案
+.DS_Store
+Thumbs.db
+
+# 忽略 Electron 打包工具的中間文件
+dist/
+out/
+
+# 可選：如果不希望上傳編譯後的檔案（可分享時再打包）
 *.exe
+*.app
